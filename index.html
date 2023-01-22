@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Work+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>RocketNews</title>
+
+  </head>
+  <body>
+
+    <div id="app">
+      <article class="rocket-news">
+        <header><img src="./assets/logo.svg" alt="RocketNews Logo"></header>
+
+        <main>
+
+        <h1>atualize ideias e informações em 5 minutos.</h1>
+        <h2>tudo que você precisa saber para começar seu dia bem e informado</h2>
+        <p>noticias sobre o universo Rocketseat, e tudo o que precisa para começar o dia melhor.
+          perfeito para se preparar para codar ☕</p>
+
+      <form action="">
+        <label for="email">Insira seu email:</label>
+
+        <div>
+        <input 
+        name="email"
+        id="email" 
+        type="email"
+        placeholder="oi@rocketseat.com"
+        required>
+
+        <button type="submit" class="form-bot">
+          <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="send"
+                >
+                  <path
+                    d="M22 2L11 13"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="svg-elem-1"
+                  >
+                  <img class="send-icon" src="./assets/send.svg">
+                </path>
+                  <path
+                    d="M22 2L15 22L11 13L2 9L22 2Z"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="svg-elem-2"
+                  ></path>
+                </svg>
+        </button>
+      </div>
+      </form>
+    </main>
+
+    <footer>
+      <a href="#">deixe-me ler primeiro
+        <img src="./assets/arrow-right.svg" alt="Icone de flecha">
+      </a>
+    </footer>
+  </article>
+
+
+      <div class="read-bg">
+        <img src="./assets/read_news.jpg" alt="Man Reading News" />
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+  </body>
+</html>
